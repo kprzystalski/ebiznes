@@ -1,0 +1,71 @@
+.auto-margin-bottom {
+    margin-bottom: auto !important;
+}
+
+.small-margin-bottom {
+    margin-bottom: 6px !important;
+}
+
+.no-padding-top {
+    padding-top: 0;
+}
+
+i.icon-gold {
+    color: gold;
+}
+
+.buy-modal {
+    width: 40%;
+}
+
+.review-modal {
+    width: 20%;
+}
+
+.authentication-modal {
+    width: 30%;
+}
+
+.return-modal {
+    width: 40%;
+}
+
+.prefix {
+    margin-top: -10px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+blockquote {
+    margin: 10px;
+}
+
+.inline-icon {
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+#toast-container {
+    min-width: 5%;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%) translateY(50%);
+}
+
+.centered {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
